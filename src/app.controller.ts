@@ -10,7 +10,7 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  //prueba error
+  //prueba hotfix
   @Get("version/:type") //para el query se borra el type
   getVersion(
     @Query() query: { all?: boolean },
